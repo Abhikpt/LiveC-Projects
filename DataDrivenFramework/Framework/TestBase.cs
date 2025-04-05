@@ -2,20 +2,16 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Edge;
-using con =DataDrivenFramework.Utilities.ConfigReader;
+using con = DataDrivenFramework.Utilities.ConfigReader;
 using DataDrivenFramework.Utilities;
-using System;
-using AventStack.ExtentReports;
-using AventStack.ExtentReports.Configuration;
-using AventStack.ExtentReports.Reporter;
+
 
 namespace DataDrivenFramework.Framework
 {
     public class TestBase : IDisposable
         {
         protected IWebDriver Driver;
-        private ExtentReports extent;
-        private ExtentTest test;
+      
     
          static string startupPath = Environment.CurrentDirectory;
 
@@ -30,7 +26,8 @@ namespace DataDrivenFramework.Framework
              NavigateToUrl(ConfigReader.GetUrl());
 
             // Initialize the ExtentReports object
-            SetupReport();
+           LoggerClass.logger.Info("Starting the test setup.");
+            
         }
 
         public void InitializeDriver(string browser)
@@ -67,17 +64,17 @@ namespace DataDrivenFramework.Framework
 
 
 
-        public void SetupReport()
-        {
-            // Initialize the ExtentReports object
-            string reportPath  = startupPath.Replace("bin\\Debug\\netcoreapp3.1", "Resources\\Reports\\ExtentReport.html"); 
-            var htmlReporter = new ExtentHtmlReporter(reportPath);
-            htmlReporter.Config.Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Standard;
-            extent = new ExtentReports();
-            extent.AttachReporter(htmlReporter);
-            extent.AddSystemInfo("Host Name", "Automation Test");
-            extent.AddSystemInfo("Environment", "QA");
-        }
+        // public void SetupReport()
+        // {
+        //     // Initialize the ExtentReports object
+        //     string reportPath  = startupPath.Replace("bin\\Debug\\net8.0", "Resources\\Reports\\ExtentReport.html"); 
+        //     var htmlReporter = new ExtentHtmlReporter(reportPath);
+        //     htmlReporter.Config.Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Standard;
+        //     extent = new ExtentReports();
+        //     extent.AttachReporter(htmlReporter);
+        //     extent.AddSystemInfo("Host Name", "Automation Test");
+        //     extent.AddSystemInfo("Environment", "QA");
+        // }
 
 
         [OneTimeTearDown]
@@ -90,9 +87,9 @@ namespace DataDrivenFramework.Framework
                 Driver.Quit();
                 Dispose();
             }
+            
+           LoggerClass.logger.Info("Ending the test setup.");
         }
-
-
         public void Dispose()
         {
             Driver.Dispose();

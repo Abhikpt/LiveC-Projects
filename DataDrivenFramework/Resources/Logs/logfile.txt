@@ -1,0 +1,12 @@
+2025-04-05 18:31:55.1534|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting the test setup.
+2025-04-05 18:31:55.1734|INFO|DataDrivenFramework.Utilities.LoggerClass|Manager Login Test
+2025-04-05 18:31:55.1734|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting the login test.
+2025-04-05 18:32:04.6153|INFO|DataDrivenFramework.Utilities.LoggerClass|Ending the test setup.
+2025-04-05 18:38:30.9124|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting the test setup.
+2025-04-05 18:38:30.9315|INFO|DataDrivenFramework.Utilities.LoggerClass|Manager Login Test
+2025-04-05 18:38:30.9315|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting the login test.
+2025-04-05 18:38:33.2180|INFO|DataDrivenFramework.Utilities.LoggerClass|Ending the test setup.
+2025-04-05 18:38:59.4434|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting the test setup.
+2025-04-05 18:38:59.4747|INFO|DataDrivenFramework.Utilities.LoggerClass|Manager Login Test
+2025-04-05 18:38:59.4747|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting the login test.
+2025-04-05 18:39:01.7360|INFO|DataDrivenFramework.Utilities.LoggerClass|Ending the test setup.
