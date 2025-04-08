@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataDrivenFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+616fe3a516553dc6a6031dfc08db347aac453898")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e24f719262d2b50fb7f9a206bc44870c104afc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataDrivenFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataDrivenFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

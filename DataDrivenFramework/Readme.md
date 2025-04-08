@@ -39,8 +39,26 @@ Example:
 ## Contributions
 Contributions are welcome! Please follow the contribution guidelines outlined in the repository.
 
-## Steps We Follow
 
+
+## Supported class and framework:
+- Excel reader
+- Logs
+_ mails
+- Zip
+- Listeners - soft assertion, Test failure
+- Jenkins
+- Nuget
+- ReportNG
+- Extent Reports
+- Database
+- Properties
+- Runmodes
+- TestNG
+- ScreenshotUtils
+
+
+## Steps We Follow
 Below are the steps we follow to implement and execute tests using this framework:
 
 1. **Created Properties an Config file**: Ensure all prerequisites are installed and configured.
@@ -53,8 +71,51 @@ Below are the steps we follow to implement and execute tests using this framewor
 
 Feel free to customize these steps based on your specific project requirements.
 
+- Create the Appsetting file -> ConfigReader [it will be used to fetch the variable and URL from the appsetting.json]
+- `create the TestBase` with method setup, teardown, OnetimeSetup and OneTimeTeardown
+- Create the testscript , and inherit the all testBase in each testscript
 
--- Create the Appsetting file -> config reader
--- create the base class with method setup, teardown
--- Create the testscript , and inherit the all testBase in each testscript
---
+
+## steps i follow in this project
+
+1. **Implement ConfigRerader:**
+      a. Created the `static ` Config class to read the environment variable and URLs
+      b. 
+2. **Implement Logging:**
+      a. Create the `static` loggerClass, so that can access globally and no multiple instance
+      b. Add different method for operation like LogInfo, LogError, LogWarn and LogDebug
+      c. call the the logging method in testBase class using className.Nethod under 
+       .   - OneTimeSetup, Setup, OneTimeTearDown and Teardown method
+      
+      
+3. **Implement Reporting:** 
+      a. Create the Reporting class
+      b. implement the `static` methods like  StartReport, LogInfo, LogFail, Logpass, 
+      c.  
+4. **Implement ExcelUtility**
+      a. Create ExcelUtility Class
+      b. create different method like readexcel  , returing an list of row/array i.e. `List<object[]>` .
+      c. Call this method in a method where you want to do mult-data operation
+      d. use the anotation like TestCaseSource(nameof(MethodName)) for passing the data using Nunit.
+      e. it will take the row one by one and supply to this method belong to this annotation
+
+5. Create the base class `TestBase`. it will create `static` variable to initiate all the objects for all class like reporting, config and logging.
+
+6. **Implement aserion**: 
+
+
+
+1.  Flow for adding the customer:
+
+  - Created Base class => TestBase
+  - Add customer class   - open the customer page  - Add the record with multi-dataset.
+  - Multi-Data set: Achieve from the method returing an list of row/array i.e. `List<object[]>`  => Execlutility
+  - 
+
+
+### Precaution:
+a. Initialize the ElementActions, Logging, Reporting and Excelutility class and take the object for further process
+b. Make the reporting/loggin process in same `TestBase class`  by using setup and teardown anotations of Nunit.
+c. inherit the Testbase class in "TestScript" that will provied all this object to work.
+c. Test script: It should have the funcationality, and multi-data operation in seperate method.
+d. 
