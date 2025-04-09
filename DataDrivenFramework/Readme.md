@@ -85,13 +85,16 @@ Feel free to customize these steps based on your specific project requirements.
       a. Create the `static` loggerClass, so that can access globally and no multiple instance
       b. Add different method for operation like LogInfo, LogError, LogWarn and LogDebug
       c. call the the logging method in testBase class using className.Nethod under 
-       .   - OneTimeSetup, Setup, OneTimeTearDown and Teardown method
+         - OneTimeSetup, Setup, OneTimeTearDown and Teardown method
+      d. 
       
       
 3. **Implement Reporting:** 
       a. Create the Reporting class
       b. implement the `static` methods like  StartReport, LogInfo, LogFail, Logpass, 
-      c.  
+      c.  `extent.Flush()` is mandetory to Appends the HTML file with all the ended tests.
+      d. we can create all the static object for this , but in case of parallel testing we will face challanges.
+
 4. **Implement ExcelUtility**
       a. Create ExcelUtility Class
       b. create different method like readexcel  , returing an list of row/array i.e. `List<object[]>` .

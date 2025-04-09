@@ -5,14 +5,20 @@ using OpenQA.Selenium.Edge;
 using con = DataDrivenFramework.Utilities.ConfigReader;
 using DataDrivenFramework.Utilities;
 using Microsoft.Extensions.Logging;
+using NUnit.Framework.Interfaces;
+using AventStack.ExtentReports.Model;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter.Configuration;
+using AventStack.ExtentReports.Reporter;
 
 
-namespace DataDrivenFramework.Framework
-{
+namespace DataDrivenFramework.Framework ;
+
+   
     public class TestBase : IDisposable
-        {
-        protected IWebDriver Driver;
-        protected ElementAction elementHelper;
+    {
+        protected static IWebDriver Driver;
+        protected ElementAction elementHelper;               
         public static string ProjectPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
 
         private static string _excelFilePath = ProjectPath + "\\Resources\\Data\\CustomerData.xlsx";
@@ -25,27 +31,38 @@ namespace DataDrivenFramework.Framework
         [OneTimeSetUp]
         public void SetUp()
         {           
+
             // Initialize the WebDriver based on the browser specified in the configuration
-            InitializeDriver(ConfigReader.GetBrowser);
+            InitializeDriver(con.GetBrowser);            
             // Navigate to the URL specified in the configuration
-            NavigateToUrl(ConfigReader.GetUrl());            
+            NavigateToUrl(con.GetUrl());   
+
             // Interact with the web page using the ElementAction class
             elementHelper = new ElementAction(Driver);
-            // Initialize the ExcelUtility class with the path to the Excel file
-         
 
-
+           // Log the start of the test suite execution  
            LoggerClass.LogInfo("------------------- Test Suit Execution Started ----------------------------");   
            
+         
+        
         }
-
+       
 
         [SetUp]
         public void TestStart()
         {
             var testName = TestContext.CurrentContext.Test.Name;
             LoggerClass.LogInfo($"Starting Test: {testName}");
+
+            // extentReport  
+          //    test = extent.CreateTest(testName);
+          //    test.Info($"Starting test: {testName}"); 
+
+            Reporting.CreateTest(testName);
+            Reporting.LogInfo(testName);
         }
+
+        
 
         [TearDown]
         public void TestCompletion()
@@ -53,6 +70,30 @@ namespace DataDrivenFramework.Framework
             var testName = TestContext.CurrentContext.Test.Name;
             var testStatus = TestContext.CurrentContext.Result.Outcome.Status;
             LoggerClass.LogInfo($"Completed Test: {testName} with Status: {testStatus}");
+
+            // extentReport
+            if (testStatus == TestStatus.Failed)
+            {
+                string screenshotBase64 = CaptureScreenshot();
+                Reporting.LogFail("Test Failed. " + testName);
+            //    Reporting.Addscreenshot(screenshotBase64);
+            }
+            else if (testStatus == TestStatus.Skipped)
+            {
+               Reporting.LogSkip("Test Skipped. " + testName);
+            }
+            else if (testStatus == TestStatus.Passed)
+            {
+               Reporting.LogPass("Test Passed Successfully. " + testName); 
+            }
+            else
+            {
+                Reporting.LogWarning("Test Status Unknown. " + testName);
+
+            }
+
+            // flush the reports in html file
+            Reporting.EndReport(); 
         }
 
 
@@ -103,12 +144,28 @@ namespace DataDrivenFramework.Framework
         }
 
 
+         private static string CaptureScreenshot()
+        {
+            try
+            {
+                Screenshot screenshot = ((ITakesScreenshot)Driver).GetScreenshot();
+                return screenshot.AsBase64EncodedString;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception while capturing screenshot: " + ex.Message);
+                return null;
+            }
+            
+        }
+
+
 
       
         public void Dispose()
         {
             Driver.Dispose();
             NLog.LogManager.Shutdown(); 
+          
         }
     }
-}

@@ -2,14 +2,16 @@ using DataDrivenFramework.Framework;
 using DataDrivenFramework.Utilities;
 
 
-namespace DataDrivenFramework.TestScripts
+namespace DataDrivenFramework.Framework
 {
+    [TestFixture]
     public class TestCase01 : TestBase
     {
 
         [Test]
         public void TestLogin()
         {
+
             // Arrange: Set up the test data and expected results
             string username = ConfigReader.GetUsername();
             string password = ConfigReader.GetPassword();
