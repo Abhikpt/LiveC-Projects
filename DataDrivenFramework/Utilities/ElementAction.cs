@@ -43,4 +43,11 @@ public class ElementAction
             return false;
         }
     }
+
+
+    public WebDriverWait Wait()
+    {
+        return _wait;
+    }
+    
 }

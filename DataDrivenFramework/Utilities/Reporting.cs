@@ -11,6 +11,8 @@ namespace DataDrivenFramework.Utilities
     {
         private static ExtentReports extent;
         private static ExtentTest test;
+
+        private static string testCategory;
         static string startupPath = Environment.CurrentDirectory;
 
          static Reporting()
@@ -33,8 +35,12 @@ namespace DataDrivenFramework.Utilities
 
          public static void CreateTest(string testName)
         {
-             test = extent.CreateTest(testName);           
-            test.AssignCategory("Regression");
+            
+            test = extent.CreateTest(testName);  
+
+            var categoryProperty = TestContext.CurrentContext.Test.Properties.Get("Category");
+            testCategory = categoryProperty != null ? categoryProperty.ToString() : "No Category";      
+            test.AssignCategory(testCategory?? "No Category");
 
         }
 
@@ -77,11 +83,13 @@ namespace DataDrivenFramework.Utilities
             test.Log(Status.Error, message);
         }
 
-        public static  void Addscreenshot(string message)
-        {            
-                test.Fail( message + TestContext.CurrentContext.Result.Message);
-               //     .AddScreenCaptureFromPath(imageString,"Screenshot");
-        }   
+        public static  void Addscreenshot(string screenshotBase64)
+        {
+          //  test.AddScreenCaptureFromBase64String(screenshotBase64, "Screenshot");
+            test.Log(Status.Info, "Screenshot: ", MediaEntityBuilder.CreateScreenCaptureFromBase64String(screenshotBase64).Build());
+
+        }
+         
         public static void EndReport()
         {
             extent.Flush();

@@ -1,15 +1,17 @@
 using OpenQA.Selenium;
 using DataDrivenFramework.Pages;
+using SeleniumExtras.WaitHelpers;
+using Org.BouncyCastle.Tls;
 
 
-namespace DataDrivenFramework.Framework
+namespace DataDrivenFramework.TestScripts
 {
 
     [TestFixture]
     public class AddCustomerTest : AddCustomer
     {    
 
-        [Test]
+        [Test, Category("SmokeTest")]
         public void TC01_OpentheCustomerPage()
         {   
              Thread.Sleep(3000); 
@@ -23,7 +25,10 @@ namespace DataDrivenFramework.Framework
         }
 
 
-        [Test, TestCaseSource(nameof(GetCustomerData))]
+       
+        [Test, Category("SmokeTest")]
+        [TestCaseSource(nameof(GetCustomerData))]
+       
         public void TC02_VerifyAddCustomer(string firstName, string lastName, string postCode, string address)
         {
 
@@ -31,11 +36,15 @@ namespace DataDrivenFramework.Framework
             elementHelper.EnterText(firstNameField, firstName);
             elementHelper.EnterText(lastNameField, lastName);
             elementHelper.EnterText(postCodeField, postCode);
+            elementHelper.ClickElement(AddButton);
+            Thread.Sleep(2000);  
+            IAlert alert = elementHelper.Wait().Until(ExpectedConditions.AlertIsPresent());
+            
+            Assert.IsTrue(alert.Text.Contains("Customer added successfully"), "Alert message is not as expected.");
+            alert.Accept(); // Accept the alert to close it
+            
             Thread.Sleep(2000);     
         }
-
-
-
 
           public static IEnumerable<object[]> GetCustomerData()
             {                

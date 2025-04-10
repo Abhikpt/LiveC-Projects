@@ -2,13 +2,13 @@ using DataDrivenFramework.Framework;
 using DataDrivenFramework.Utilities;
 
 
-namespace DataDrivenFramework.Framework
+namespace DataDrivenFramework.TestScripts
 {
     [TestFixture]
     public class TestCase01 : TestBase
     {
 
-        [Test]
+        [Test, Category("SampleTest")]
         public void TestLogin()
         {
 
@@ -16,7 +16,7 @@ namespace DataDrivenFramework.Framework
             string username = ConfigReader.GetUsername();
             string password = ConfigReader.GetPassword();
         //    string expectedTitle = "Dashboard / nopCommerce administration";
-
+    
             Console.WriteLine($"Username: {username}");
             // Act: Perform the login action
             // LoginPage loginPage = new LoginPage(Driver);

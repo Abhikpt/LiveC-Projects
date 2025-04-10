@@ -616,3 +616,178 @@
 2025-04-09 19:36:32.3274|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Passed
 2025-04-09 19:36:32.3274|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
 2025-04-09 19:36:32.3274|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 19:50:09.5908|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 19:50:09.6047|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 19:50:18.2828|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 19:50:24.8813|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 19:50:27.5772|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Passed
+2025-04-09 19:50:27.5772|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 19:50:30.2076|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Passed
+2025-04-09 19:50:30.2135|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 19:50:30.2135|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 20:27:30.1699|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 20:27:30.1854|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 20:27:36.0798|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 20:27:40.0651|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 20:27:40.0779|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 20:27:40.2128|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 20:27:40.2128|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 20:27:40.3529|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 20:27:40.3529|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 20:31:19.0999|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 20:31:19.1284|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 20:31:25.1412|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 20:31:29.5814|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 20:31:29.5909|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 20:31:29.7273|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 20:31:29.7273|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 20:31:29.8898|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 20:31:29.8898|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 20:35:18.0485|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 20:35:18.0589|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 20:35:25.0560|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 20:35:30.5892|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 20:35:30.6016|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 20:35:30.7347|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 20:35:30.7347|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 20:35:30.8737|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 20:35:30.8737|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 20:37:00.1972|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 20:37:00.2066|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 20:37:06.1471|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 20:37:10.9859|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 20:37:10.9957|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 20:37:11.1599|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 20:37:11.1599|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 20:37:11.3065|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 20:37:11.3065|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:18:40.3507|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:18:40.3801|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:18:48.9222|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:19:02.3263|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:20:31.1703|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:20:31.4001|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:20:32.7912|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:20:32.9773|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:20:32.9773|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:21:35.2542|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:21:35.3065|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:21:41.6898|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:21:54.5767|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:22:58.5101|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:22:58.7101|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:22:58.7114|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:22:58.9121|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:22:58.9121|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:23:57.1383|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:23:57.1590|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:23:57.2050|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:24:01.7625|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:24:01.7625|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:24:01.8799|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:24:01.8799|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:24:30.4101|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:24:30.4243|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:24:37.0653|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:24:47.3291|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:24:47.3517|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:24:47.5300|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:24:47.5300|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:24:47.7238|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:24:47.7238|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:26:31.8595|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:26:31.8811|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:26:37.9610|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:26:41.2096|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:26:52.7174|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:26:52.8770|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:27:04.6545|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:27:04.7919|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:27:04.7924|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:30:21.3606|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:30:21.3606|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:30:36.5458|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:30:41.4194|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:31:59.9365|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:31:59.9543|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:32:13.2890|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:32:18.3728|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:33:33.9737|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:33:34.1814|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:34:09.2755|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:34:09.4483|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:34:09.4483|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:42:01.6654|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:42:01.6853|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:42:24.7393|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:42:28.7741|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:43:38.2924|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:43:38.5031|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:43:38.5031|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:43:38.6832|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:43:38.6832|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:44:23.0735|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:44:23.0735|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:45:17.2452|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:45:21.6559|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:46:08.5517|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:46:08.7473|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:46:08.7473|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:46:08.9152|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:46:08.9152|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:47:03.9012|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:47:03.9191|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:52:17.7492|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:52:17.7763|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:52:23.8620|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:52:27.6467|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 21:52:27.6525|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 21:52:27.7386|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 21:52:27.7386|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 21:52:27.8432|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 21:52:27.8432|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 21:59:42.4278|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 21:59:42.4278|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 21:59:49.0334|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 21:59:53.1470|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 22:00:06.5200|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 22:00:06.7123|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 22:00:20.1752|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 22:00:20.3744|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 22:00:20.3744|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 22:01:52.6899|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 22:01:52.7187|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 22:02:28.2017|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 22:02:39.0257|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 22:04:21.0859|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Failed
+2025-04-09 22:04:21.3036|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 22:04:34.7194|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Failed
+2025-04-09 22:04:34.8196|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 22:04:34.8196|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 22:05:20.5673|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 22:05:20.5825|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 22:06:18.7754|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 22:06:23.1775|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 22:07:19.3161|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Passed
+2025-04-09 22:07:19.3161|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 22:07:28.3475|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Passed
+2025-04-09 22:07:28.3565|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 22:07:28.3565|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-09 22:09:17.9831|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-09 22:09:17.9979|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-09 22:09:31.4611|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-09 22:09:35.9278|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-09 22:09:41.0942|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Passed
+2025-04-09 22:09:41.0942|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-09 22:09:46.2104|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Passed
+2025-04-09 22:09:46.2309|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-09 22:09:46.2309|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------
+2025-04-10 08:36:49.4737|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- Test Suit Execution Started ----------------------------
+2025-04-10 08:36:49.4883|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC01_OpentheCustomerPage
+2025-04-10 08:36:58.2613|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC01_OpentheCustomerPage with Status: Passed
+2025-04-10 08:37:01.9677|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c")
+2025-04-10 08:37:06.7536|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("abhishek","singh","AWFDD","c") with Status: Passed
+2025-04-10 08:37:06.7536|INFO|DataDrivenFramework.Utilities.LoggerClass|Starting Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v")
+2025-04-10 08:37:11.7669|INFO|DataDrivenFramework.Utilities.LoggerClass|Completed Test: TC02_VerifyAddCustomer("kunal","Kaushal","ADS242","v") with Status: Passed
+2025-04-10 08:37:11.7725|INFO|DataDrivenFramework.Utilities.LoggerClass|------------------- All the tests suit have been executed ------------------
+2025-04-10 08:37:11.7725|INFO|DataDrivenFramework.Utilities.LoggerClass|---------------------------------------------------------------------------

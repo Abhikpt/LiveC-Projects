@@ -17,10 +17,13 @@ namespace DataDrivenFramework.Utilities;
              NLog.LogManager.Setup().LoadConfiguration(builder => {
           //  builder.Configuration = new XmlLoggingConfiguration( logFilePath + "NLog.config");
             builder.ForLogger().FilterMinLevel(LogLevel.Info).WriteToConsole();
-            builder.ForLogger().FilterMinLevel(LogLevel.Debug).WriteToFile(fileName: logFilePath + "logfile.txt");
+            builder.ForLogger().FilterMinLevel(LogLevel.Debug).WriteToFile(fileName: logFilePath + "logfile"+GetDateString+".txt");
             });          
             
         }
+
+        private static string GetDateString => DateTime.Now.ToString("yyyy-MM-dd");
+
 
         public static void LogInfo(string message) => logger.Info(message);
         public static void LogError(string message, Exception? ex = null) 

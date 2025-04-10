@@ -75,8 +75,9 @@ namespace DataDrivenFramework.Framework ;
             if (testStatus == TestStatus.Failed)
             {
                 string screenshotBase64 = CaptureScreenshot();
-                Reporting.LogFail("Test Failed. " + testName);
+                Reporting.LogFail( "Test Failed " + TestContext.CurrentContext.Result.Message);
             //    Reporting.Addscreenshot(screenshotBase64);
+                Reporting.Addscreenshot(screenshotBase64);
             }
             else if (testStatus == TestStatus.Skipped)
             {
@@ -105,7 +106,14 @@ namespace DataDrivenFramework.Framework ;
                        
             LoggerClass.LogInfo("------------------- All the tests suit have been executed ------------------");
             LoggerClass.LogInfo("---------------------------------------------------------------------------");  
-            if (Driver != null)   Dispose();         
+            if (Driver != null)   Dispose();  
+        }
+        
+        public void Dispose()
+        {
+            Driver.Dispose();
+            NLog.LogManager.Shutdown(); 
+          
         }
 
 
@@ -149,23 +157,21 @@ namespace DataDrivenFramework.Framework ;
             try
             {
                 Screenshot screenshot = ((ITakesScreenshot)Driver).GetScreenshot();
+                screenshot.SaveAsFile(ProjectPath + "\\Resources\\Reports\\error"+ GetDateString +".jpg");
                 return screenshot.AsBase64EncodedString;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Exception while capturing screenshot: " + ex.Message);
-                return null;
+                return ex.Message;
             }
             
         }
+        private static string GetDateString => DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
+       
+    
 
 
 
       
-        public void Dispose()
-        {
-            Driver.Dispose();
-            NLog.LogManager.Shutdown(); 
-          
-        }
     }

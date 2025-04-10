@@ -102,9 +102,23 @@ Feel free to customize these steps based on your specific project requirements.
       d. use the anotation like TestCaseSource(nameof(MethodName)) for passing the data using Nunit.
       e. it will take the row one by one and supply to this method belong to this annotation
 
-5. Create the base class `TestBase`. it will create `static` variable to initiate all the objects for all class like reporting, config and logging.
+5. **Implement BaseClass**
+      a. Create the base class `TestBase`. it will create `static` variable to initiate all the objects for all class like reporting, config and logging.
+      b. we can add some basic methods here that need to use in further Testclasses.
+
 
 6. **Implement aserion**: 
+      a. Assertions validate expected vs. actual results, ensuring your automation scripts verify functionality correctly.
+      b. ests without assertions may pass even if the application is broken. Assertions confirm correct behavior.
+      c. When an assertion fails, NUnit provides a detailed error message, making it easier to debug and fix issues
+
+7. **Adding Screenshot:**
+
+      a. Capturing the screenshot and save file in directory 
+      b. We can include the  screenshot file link in logging file as well
+      b. Capturing screenshot passing in extentreport as a string and then displaying as image using `MediaEntityBuilder`.
+
+8.  
 
 
 
